@@ -7,4 +7,9 @@ git log --pretty=oneline
 4、重置
 git reset --hard HEAD^
 
-辅导辅导辅导辅导地方地方的的方法地方地方
+5、git 每次操作日志
+git reflog
+
+6、查看当前版本与工作区文件的区别
+git diff HEAD -- filename
+
