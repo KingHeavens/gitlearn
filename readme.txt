@@ -1,6 +1,8 @@
-初始化 git仓库
+1、初始化 git仓库
 git init
-查看不同
+2、查看不同
 git diff readme.txt
-显示日志
-git log
+3、显示日志
+git log --pretty=oneline
+
+
