@@ -14,9 +14,10 @@ git reset --hard HEAD^
 git reflog
 
 6、查看当前版本与工作区文件的区别
-git diff HEAD -- filename
+git diff HEAD -- <filename>
 
 7、撤销对工作区内容的修改
-git checkout -- filename
+git checkout -- <filename>
 
-
+8、删除文件
+rm <filename>
