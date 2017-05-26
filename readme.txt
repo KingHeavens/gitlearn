@@ -58,6 +58,17 @@ master分支应该是稳定版本的发布，平时最好不用来开发。
 -------------------------------------------
 ===========================================
 
+18、暂时保存工作区的内容
+git stash
+19、查看保存工作区内容列表
+git stash list
+20、恢复stash保存的内容 不删除 stash列表
+git stash apply <stash@{0}>
+21、恢复stash保存的内容 删除stash列表
+git stash pop
+22、删除stash列表
+git stash drop <stash@{0}| >
+
 
 
 
