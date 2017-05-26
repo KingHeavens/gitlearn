@@ -22,11 +22,15 @@ git checkout -- <filename>
 8、删除文件
 rm <filename>
 
-9、创建分支
+
+9、切换并创建分支
+git checkout -b <branchName>
+10、创建分支
 git branch <branchName>
-10、切换分支
+12、切换分支
 git checkout <branchName>
-11、查看分支
+12、查看分支
 git branch
-12、合并分支
+13、合并分支
 git merge <branchName>
+
