@@ -22,7 +22,9 @@ git checkout -- <filename>
 8、删除文件
 rm <filename>
 
-
+===================================================
+#################分支相关##########################
+===================================================
 9、切换并创建分支
 git checkout -b <branchName>
 10、创建分支
@@ -31,6 +33,11 @@ git branch <branchName>
 git checkout <branchName>
 12、查看分支
 git branch
-13、合并分支
+13、合并分支到当前分支
 git merge <branchName>
+14、删除分支
+git branch -d dev
+
+15、
+
 
