@@ -38,6 +38,26 @@ git merge <branchName>
 14、删除分支
 git branch -d dev
 
-15、
+15、解决冲突
+git merge <branchName> --->产生冲突
+-->修改冲突 --->git add <filename>
+--> git commit -m "fix confilct" == 解决冲突
+
+16、查看分支合并情况
+git log --graph --pretty=oneline --abbrev-commit
+git log --graph 
+17、合并分支 禁用Fast forward #此模式可以在删除分支时保留分支信息
+git merge --no-ff -m "description"
+
+-------------------------------------------
+################分支策略###################
+-------------------------------------------
+master分支应该是稳定版本的发布，平时最好不用来开发。
+在dev分支上干活，dev分支是不稳定的，版本发布后相应版本再合并到master
+小伙伴们都从dev上做分支，并且合并到dev分支。
+-------------------------------------------
+===========================================
+
+
 
 
