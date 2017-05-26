@@ -21,3 +21,6 @@ git checkout -- <filename>
 
 8、删除文件
 rm <filename>
+
+9、切换并创建分支
+git checkout -b <branchName>
