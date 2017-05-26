@@ -26,3 +26,7 @@ rm <filename>
 git branch <branchName>
 10、切换分支
 git checkout <branchName>
+11、查看分支
+git branch
+12、合并分支
+git merge <branchName>
