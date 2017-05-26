@@ -106,4 +106,8 @@ git tag -d <tagname>
 git push <remote> <tagname>
 36、推送所有的tag到远程
 git push <remote> --tags
-37、
+37、删除本地tag
+git tag -d <tagname>
+38、删除远程tag
+git push origin :refs/tags/<tagname>
+
